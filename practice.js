@@ -85,7 +85,7 @@ function nameCheck(name) {
   if (name === 'Steven') {
     return 'What is up Steven?';
   } else if (name === 'Bryan') {
-    return 'Hey Brian!';
+    return 'Hey Bryan!';
   } else {
     return 'Cool name, ' + name;
   }
