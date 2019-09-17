@@ -51,7 +51,7 @@ return "Hello, " + name;
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-var myArray = [apples, milk, eggs, bread];
+var groceries = ['apples', 'milk', 'eggs', 'bread'];
 //////////////////PROBLEM 9////////////////////
 
 //Create an object saved to the variable dog.
@@ -121,6 +121,7 @@ function faveColorFinder(color) {
  } else if (color === 'green') {
      return 'green is a solid favorite color';
  } else if (color === 'black') {
+   return 'so trendy'
     } else {
       return 'you need to evaluate your favorite color choice';
  }
@@ -153,13 +154,13 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = [ "rubberDuck"];
+let bathroomScope = ["duck","rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = [ "sailorDuck", "rubberDuck"];
+let bathtubScope = ["duck","sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck"];
+let pondScope = ["duck","realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
